@@ -1,0 +1,340 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yunzuhou/Projects/Examples/PS8Skeleton/World/World.csproj": {}
+  },
+  "projects": {
+    "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Network/Network.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Network/Network.csproj",
+        "projectName": "Network",
+        "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Network/Network.csproj",
+        "packagesPath": "/Users/yunzuhou/.nuget/packages/",
+        "outputPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Network/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yunzuhou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yunzuhou/Projects/Examples/PS8Skeleton/NetworkController/NetworkController.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/NetworkController/NetworkController.csproj",
+        "projectName": "NetworkController",
+        "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/NetworkController/NetworkController.csproj",
+        "packagesPath": "/Users/yunzuhou/.nuget/packages/",
+        "outputPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/NetworkController/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yunzuhou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yunzuhou/Projects/Examples/PS8Skeleton/SnakeClient/SnakeClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/SnakeClient/SnakeClient.csproj",
+        "projectName": "SnakeClient",
+        "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/SnakeClient/SnakeClient.csproj",
+        "packagesPath": "/Users/yunzuhou/.nuget/packages/",
+        "outputPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/SnakeClient/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/yunzuhou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-maccatalyst"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-maccatalyst16.1": {
+            "targetAlias": "net7.0-maccatalyst",
+            "projectReferences": {
+              "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Network/Network.csproj": {
+                "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Network/Network.csproj"
+              },
+              "/Users/yunzuhou/Projects/Examples/PS8Skeleton/NetworkController/NetworkController.csproj": {
+                "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/NetworkController/NetworkController.csproj"
+              },
+              "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Vector2D/Vector2D.csproj": {
+                "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Vector2D/Vector2D.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-maccatalyst16.1": {
+          "targetAlias": "net7.0-maccatalyst",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Maui.Graphics": {
+              "target": "Package",
+              "version": "[7.0.101, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "xamarinios10",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.MacCatalyst": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Controls": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Core": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Essentials": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "maccatalyst-x64": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Vector2D/Vector2D.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Vector2D/Vector2D.csproj",
+        "projectName": "Vector2D",
+        "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Vector2D/Vector2D.csproj",
+        "packagesPath": "/Users/yunzuhou/.nuget/packages/",
+        "outputPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Vector2D/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yunzuhou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yunzuhou/Projects/Examples/PS8Skeleton/World/World.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/World/World.csproj",
+        "projectName": "World",
+        "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/World/World.csproj",
+        "packagesPath": "/Users/yunzuhou/.nuget/packages/",
+        "outputPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/World/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yunzuhou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/yunzuhou/Projects/Examples/PS8Skeleton/SnakeClient/SnakeClient.csproj": {
+                "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/SnakeClient/SnakeClient.csproj"
+              },
+              "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Vector2D/Vector2D.csproj": {
+                "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Vector2D/Vector2D.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

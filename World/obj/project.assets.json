@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "SnakeClient/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/SnakeClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SnakeClient.dll": {}
+        }
+      },
+      "Vector2D/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Vector2D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vector2D.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SnakeClient/1.0.0": {
+      "type": "project",
+      "path": "../SnakeClient/SnakeClient.csproj",
+      "msbuildProject": "../SnakeClient/SnakeClient.csproj"
+    },
+    "Vector2D/1.0.0": {
+      "type": "project",
+      "path": "../Vector2D/Vector2D.csproj",
+      "msbuildProject": "../Vector2D/Vector2D.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "SnakeClient >= 1.0.0",
+      "Vector2D >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/yunzuhou/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/World/World.csproj",
+      "projectName": "World",
+      "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/World/World.csproj",
+      "packagesPath": "/Users/yunzuhou/.nuget/packages/",
+      "outputPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/World/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/yunzuhou/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/yunzuhou/Projects/Examples/PS8Skeleton/SnakeClient/SnakeClient.csproj": {
+              "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/SnakeClient/SnakeClient.csproj"
+            },
+            "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Vector2D/Vector2D.csproj": {
+              "projectPath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/Vector2D/Vector2D.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project SnakeClient is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project SnakeClient supports: net7.0-maccatalyst16.1 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "SnakeClient",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "6tfkKWu4+N4bAmSHnSLeCY7iuuq//Ew3s+9yXO4yoApmFE93oE36RAdgRYJMwgMarkttSHB12EI2KInt4PApMA==",
+  "success": false,
+  "projectFilePath": "/Users/yunzuhou/Projects/Examples/PS8Skeleton/World/World.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project SnakeClient is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project SnakeClient supports: net7.0-maccatalyst16.1 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "SnakeClient",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
